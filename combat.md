@@ -6,7 +6,7 @@ This is a description of combat and how it works with in this game.
 
 Instead of player and AI managing damage directly, damage nodes and damage detectors nodes will manage the interaction.
 
-### Damage nodes
+### Damage Emitter nodes
 
 This sends a damage signal to any **damage detector** node it interacts .
 
@@ -25,5 +25,9 @@ Detect when it has taken damage and outputs a damage taken signal
   - direction that attack comes from
   
   - knock amount
-  
-  - 
+
+## Physics Layers
+
+both nodes are on **layer 10** and only layer 10 of the physics layer.
+
+
