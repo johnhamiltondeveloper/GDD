@@ -16,7 +16,7 @@ This sends a damage signal to any **damage detector** node it interacts .
   
   - **Once** only applies damage once, when the node is first detected.
 
-This node dose not collide with its own layer
+Collides with nodes on **layer 10** but is not on a layer it self, it can only detect collisions. 
 
 ### Damage Detector nodes
 
@@ -28,10 +28,8 @@ Detect when it has taken damage and outputs a damage taken signal
   
   - knock amount
 
-This node collides with the emitter layer but not its own layer
+This does not collide with other layers, but can be detected by the damage emitter on layer 10
 
 ## Physics Layers
 
-- **Layer 10** - Damage Emitter - Layer used for the Damage Emitter nodes
-
-- **Layer 11** - Damage Detector - Layer used for the Damage Detector nodes
+- **Layer 10** - Damage
