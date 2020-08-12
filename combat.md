@@ -2,6 +2,8 @@
 
 This is a description of combat and how it works with in this game.
 
+- [ ] Add what a unit of damage means e.g. what dose "1 damage mean"
+
 ## Architecture
 
 Instead of player and AI managing damage directly, damage nodes and damage detectors nodes will manage the interaction.

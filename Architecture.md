@@ -13,7 +13,7 @@ flowchart BT
     end
 
     subgraph characters[characters]
-    
+
     character --> health
     character --> Damage[Damage Detection] 
     character --> saveObject[Save]
@@ -22,5 +22,3 @@ flowchart BT
 
     end
 ```
-
-
